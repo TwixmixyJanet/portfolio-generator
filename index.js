@@ -21,6 +21,7 @@ const generateHTML = (answers) =>
                     <li class="list-group-item">My LinkedIn username is ${answers.linkedin}</li>
                     <li class="list-group-item">My Twitter username is ${answers.twitter}</li>
                 </ul>
+                <p class="p-2">I like ${answers.hobby} and ${answers.food}.</p>
             </div>
         </div>
     </body>
