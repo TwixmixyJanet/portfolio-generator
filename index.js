@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const generateHTML = (answer) =>
+const generateHTML = (answers) =>
     `<!DOCTYPE html>
     <html lang="en">
     <head>
